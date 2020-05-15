@@ -1,0 +1,153 @@
+@media (min-width:424px) {
+    #jumlah-kasus {
+        width: 80%;
+    }
+
+    .positif,
+    .sembuh,
+    .meninggal {
+        padding: 1rem;
+    }
+
+    .jumlah {
+        font-size: 1.75rem;
+    }
+
+    .list p {
+        font-size: 1rem;
+    }
+
+    .berita-container {
+        scroll-snap-align: center;
+    }
+}
+
+@media (min-width:767px) {
+    .nav-item {
+        display: block;
+    }
+
+    .nav-item .flex {
+        flex-direction: row;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .home-cap {
+        order: 1;
+        align-items: flex-start;
+    }
+
+    .home-cap h1 {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .home-img {
+        order: 2;
+    }
+
+    .home-img img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    header>.container>.flex {
+        align-items: center;
+    }
+
+    #jumlah-kasus {
+        width: 60%;
+    }
+
+    .jumlah {
+        font-size: 2.25rem;
+    }
+
+    .gejala-card svg {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .gejala-card p {
+        font-size: 1.25rem;
+    }
+
+    .scroll-to-top {
+        bottom: 3rem;
+        right: 3rem;
+        padding: 1rem;
+    }
+
+    .scroll-to-top svg {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media (min-width:1023px) {
+    .home-cap h1 {
+        font-size: 3rem;
+    }
+
+    .jumlah {
+        font-size: 2.75rem;
+    }
+
+    #jumlah-kasus {
+        width: 50%;
+    }
+
+    .card-header h1,
+    #pengertian .card-header h1 {
+        font-size: 1.75rem;
+    }
+
+    .cegah-list svg {
+        width: 5rem;
+    }
+
+    .cegah-list .caption {
+        padding-left: 1.25rem;
+        max-width: 85%;
+    }
+
+    .cegah-list .caption h6 {
+        font-size: 1.5rem;
+        margin: .3rem 0;
+    }
+
+    .cegah-list .caption p {
+        font-size: 1.125rem;
+        margin: .3rem 0;
+    }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 7px;
+    }
+
+    .profile table {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:1279px) {
+    .home-cap h1 {
+        max-width: 80%;
+    }
+
+    .gejala-card p {
+        font-size: 1.5rem;
+    }
+
+    .gejala-card svg {
+        width: 5rem;
+        height: 5rem;
+    }
+
+}
+
+@media (min-width:1439) {}
