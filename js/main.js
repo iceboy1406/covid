@@ -49,7 +49,7 @@ const section = {
 window.addEventListener('scroll', () => {
     for (s in section) {
         if (d.documentElement.scrollTop > 700) {
-            if (d.documentElement.scrollTop > section[s].offsetTop - 70 && d.documentElement.scrollTop < section[s].offsetTop + section[s].clientHeight) {
+            if (d.documentElement.scrollTop > section[s].offsetTop - 100 && d.documentElement.scrollTop < section[s].offsetTop + section[s].clientHeight) {
                 for (n of nLink) {
                     const target = n.getAttribute('href').slice(1);
                     n.classList.remove('active');
